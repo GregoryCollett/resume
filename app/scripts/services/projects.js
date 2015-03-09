@@ -17,7 +17,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'r1', 
 			    	title: 'Rustlup', 
-			    	img: '/images/rustlup.png',
+			    	img: 'images/rustlup.png',
 			    	url: 'http://www.rustlup.com',
 			    	description: 'The aim of rustlup is to make it ridiculously easy to find, make and share nice things to eat.',
 			    	position: 'Co-Founder, Web developer',
@@ -30,7 +30,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'd1', 
 			    	title: 'DispatchaCab', 
-			    	img: '/images/my11.png',
+			    	img: 'images/my11.png',
 			    	description: 'DispatchaCab a revolutionary cloud based taxi control/management suite (IN DEVELOPMENT)',
 			    	position: 'Founder, Software Engineer',
 			    	role: '',
@@ -52,7 +52,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'y1', 
 			    	title: 'YOA Workspace', 
-			    	img: '/images/my11.png',
+			    	img: 'images/my11.png',
 			    	description: 'Bespoke ERP system created to cater for the needs of YOA Insurance',
 			    	position: 'Lead front-end developer',
 			    	role: '',
@@ -63,7 +63,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'm1',
 			    	title: 'My11 Predictor Game', 
-			    	img: '/images/my11.png',
+			    	img: 'images/my11.png',
 			    	url: 'http://www.my11.com',
 			    	description: 'MY11.com WhiteLabel predictor game',
 			    	position: 'Web developer',
@@ -75,7 +75,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'm2',
 			    	title: 'My11 Site 2.0', 
-			    	img: '/images/my11.png',
+			    	img: 'images/my11.png',
 			    	url: 'http://www.my11.com',
 			    	description: 'MY11.com leading fantasy football game site revamped!',
 			    	position: 'Web developer',
@@ -87,7 +87,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'm3',
 			    	title: 'My11 Site 1.0', 
-			    	img: '/images/my11.png',
+			    	img: 'images/my11.png',
 			    	url: 'http://www.my11.com',
 			    	description: 'MY11.com leading fantasy football game site',
 			    	position: 'Web developer',
@@ -99,7 +99,7 @@ angular.module('meApp')
 			    new Project({
 			    	id: 'm4',
 			    	title: 'My11 Ad Localization', 
-			    	img: '/images/my11.png',
+			    	img: 'images/my11.png',
 			    	url: 'http://www.my11.com',
 			    	description: 'Localize & amend ads created by third party',
 			    	position: 'Web developer',
@@ -109,13 +109,13 @@ angular.module('meApp')
 			    	additionalSkills: ['FLASH']
 			    }),
 			    
-			    // {id: 'p4', 'title': 'YOA Reports', src: '/images/pm-reports-reportview.png'},
-			    // {id: 'p5', 'title': 'YOA BPM', src: '/images/yoainsurance.png'},
-			    // {id: 'p6', 'title': 'YOA CRM', src: '/images/sugarcrm.png'},
-			    // {id: 'p7', 'title': 'Go Interactive', src: '/images/gointeractive.png'},
-			    // {id: 'p8', 'title': 'Digimedio', src: '/images/digimedio.png'},
-			    // {id: 'p9', 'title': 'Forge Architects', src: '/images/forgearchitects.png'},
-			    // {id: 'p10', 'title': 'Sales Angels CRM', src: '/images/sugarcrm.png'},
+			    // {id: 'p4', 'title': 'YOA Reports', src: 'images/pm-reports-reportview.png'},
+			    // {id: 'p5', 'title': 'YOA BPM', src: 'images/yoainsurance.png'},
+			    // {id: 'p6', 'title': 'YOA CRM', src: 'images/sugarcrm.png'},
+			    // {id: 'p7', 'title': 'Go Interactive', src: 'images/gointeractive.png'},
+			    // {id: 'p8', 'title': 'Digimedio', src: 'images/digimedio.png'},
+			    // {id: 'p9', 'title': 'Forge Architects', src: 'images/forgearchitects.png'},
+			    // {id: 'p10', 'title': 'Sales Angels CRM', src: 'images/sugarcrm.png'},
 			    // {id: 'e1', 'title': 'HTML5 Simon', src:'http://lorempixel.com/200/200/' },
 			    // {id: 'e2', 'title': 'Drumma', src: 'http://lorempixel.com/200/200/'},
 			    // {id: 'e3', 'title': 'SVG Interactive Globe', src: 'http://lorempixel.com/200/200/'},
