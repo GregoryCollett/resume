@@ -31,13 +31,23 @@ angular.module('meApp')
 			    	id: 'd1', 
 			    	title: 'DispatchaCab', 
 			    	img: '/images/my11.png',
-			    	description: 'DispatchaCab a revolutionary taxi control/management suite',
+			    	description: 'DispatchaCab a revolutionary cloud based taxi control/management suite (IN DEVELOPMENT)',
 			    	position: 'Founder, Software Engineer',
 			    	role: '',
 			    	issueManagement: 'BASECAMP',
 			    	sourceControl: 'GIT',
 			    	depencyManagment: ['BOWER'],
 			    	additionalSkills: ['ANGULARJS', 'SOCKETIO', 'GRUNT', 'SCSS']
+			    }),
+			    new Project({
+			    	id: 'c1',
+			    	title: 'Chunky WS',
+			    	description: 'Chunky is a browser based synthesizer utilizing the Web Audio API',
+			    	position: 'Experiment Founder, R & D',
+			    	issueManagement: 'GIT',
+			    	sourceControl: 'GIT',
+			    	depencyManagment: ['BOWER'],
+			    	additionalSkills: ['GRUNT', 'ANGULARJS', 'SCSS', 'HTML5']
 			    }),
 			    new Project({
 			    	id: 'y1', 
