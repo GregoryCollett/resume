@@ -57,6 +57,7 @@ angular.module('meApp')
 				BASECAMP: {name: 'BASECAMP', title: 'Basecamp', img: 'images/basecamp-logo.png', url: 'https://basecamp.com/'},
 				NODE: {name: 'NODE', title: 'NodeJS', img: 'images/node-logo.png', url: 'http://nodejs.org/'},
 				SOCKETIO: {name: 'SOCKETIO', title: 'Socket IO', img: 'images/socketio-logo.gif', url: 'http://socket.io/'},
+				PROCESSMAKER: {name: 'PROCESSMAKER', title: 'Process Maker', img: 'images/processmaker.png', url: 'http://processmaker.com/'},
 			};
 
 			$scope.openTab = function(url) {
