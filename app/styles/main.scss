@@ -379,6 +379,36 @@ canvas {
     }
     &.page-skills {
       background-color: #f7f7f7;
+      .skills {
+        ul.skills-list {
+          list-style: none;
+          padding: 50px;
+          li {
+            float: left;
+            width: 25%;
+            .skill {
+              position: relative;
+              padding: 14px;
+              display: block;
+              margin: 0 10px 10px;
+              background: rgb(229, 229, 229);
+              border: 1px solid rgb(208, 207, 207);
+              .skill-level {
+                background: rgba(219, 52, 52, 0.2);
+                position:absolute;
+                height: 100%;
+                top:0;
+                left:0;
+                z-index: 1;
+              }
+              .skill-title {
+                position: relative;
+                z-index: 1001;
+              }
+            }
+          }
+        }
+      }
     }
     &.page-education {
       background-color: white;
